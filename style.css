@@ -1,0 +1,33 @@
+.playground{
+    display: flex;
+    flex-direction: row;
+}
+
+.player , .computer{
+
+    margin: 5rem auto;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+}
+.rock , .paper, .scissor, .playerCount, .computerCount{
+    margin: 1rem auto;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    
+}
+.playerCount, .computerCount{
+    margin: 0rem auto;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#winner{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;    
+    margin: 0rem auto;
+    padding-top: 8rem ;
+    
+}
